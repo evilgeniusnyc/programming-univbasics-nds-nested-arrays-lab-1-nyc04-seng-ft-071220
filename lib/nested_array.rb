@@ -48,14 +48,12 @@ end
   # Return the matrix's content at that row and and column
 
 def matrix_lookup(matrix, row, column)
- nested_
-]
 
-nested_students.each do |student_array|
-  student_array.each do |student_detail|
-    puts student_detail
-  end
-end
+
+  matrix[row][column]	  matrix[row][column]
+
+end	
+
 
 
 #describe 'When a learning to perform lookups in nested arrays,' do
