@@ -47,9 +47,8 @@ end
   # Return the matrix's content at that row and and column
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup[row][column]	  
+  matrix[row][column]	  
 end	
-matrix_lookup
 
 #describe 'When a learning to perform lookups in nested arrays,' do
  # describe 'when given a matrix, row, and column argument,' do
@@ -58,7 +57,7 @@ matrix_lookup
       #expect(matrix_lookup(sorted_matrix, 1, 1)).to eq("Avocadoes")
  
 def matrix_update(matrix, row, column, new_value)
-  
+  matrix[row][column] = new_value
 end
 
   # Given any matrix (array of arrays), a row index and a column index, 
