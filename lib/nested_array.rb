@@ -41,15 +41,15 @@ def sorted_matrix
    CONVENTIONAL_PRODUCE.sort, 
     ORGANIC_PRODUCE.sort
    ]
-  all_produce
 end
 
  # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 
 def matrix_lookup(matrix, row, column)
-  matrix[row][column]	  
+  matrix_lookup[row][column]	  
 end	
+matrix_lookup
 
 #describe 'When a learning to perform lookups in nested arrays,' do
  # describe 'when given a matrix, row, and column argument,' do
