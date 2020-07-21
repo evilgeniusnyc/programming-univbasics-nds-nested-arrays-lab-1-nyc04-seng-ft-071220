@@ -57,8 +57,8 @@ end
       #expect(matrix_lookup(sorted_matrix, 1, 1)).to eq("Avocadoes")
  
 def matrix_update(matrix, row, column, new_value)
-  matrix_update[row][column] = new_value
-  matrix_update
+  matrix[row][column] = new_value
+  matrix
 end
 
   # Given any matrix (array of arrays), a row index and a column index, 
