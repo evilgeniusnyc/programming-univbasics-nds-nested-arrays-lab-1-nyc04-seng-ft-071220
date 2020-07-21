@@ -51,18 +51,16 @@ def matrix_lookup(matrix, row, column)
   matrix[row][column]	  
 end	
 
-
-
 #describe 'When a learning to perform lookups in nested arrays,' do
  # describe 'when given a matrix, row, and column argument,' do
    # it 'the matrix_lookup method returns the requested value' do
      # expect(matrix_lookup(assembled_matrix, 1, 1)).to eq("Potatoes")
       #expect(matrix_lookup(sorted_matrix, 1, 1)).to eq("Avocadoes")
  
+def matrix_update(matrix, row, column, new_value)
+  
+end
 
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
-def matrix_update(matrix, row, column, new_value)
-  
-end
